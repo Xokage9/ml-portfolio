@@ -1,0 +1,21 @@
+{
+  "source_kind": "recorded_notebook_output",
+  "source_file": "lab5.ipynb",
+  "prepared_on": "2026-11-18",
+  "new_full_gpu_run": false,
+  "protocol": "В подготовленной версии 20% исходного train отделяются в validation с seed=42. Официальный test не участвует в выборе эпохи. Сохранённые ниже цифры относятся к старому протоколу, где test использовался как validation; они не являются оценкой нового протокола.",
+  "limitations": "После изменения разбиения требуется заново обучить и оценить модель. Mean IoU дополнительно считается только для изображений с найденной рамкой; число пропусков выводится отдельно. Для общего качества нужны также recall и mAP.",
+  "metrics": {
+    "legacy_validation": {
+      "precision": 0.8988408122634323,
+      "recall": 0.876798285889195,
+      "map50": 0.9202330624186679,
+      "map50_95": 0.5338599004269927
+    },
+    "legacy_iou_matched_only": 0.7421235046096822,
+    "legacy_matched": 2925,
+    "legacy_evaluated": 3000,
+    "new_split_retrained": false
+  },
+  "source_url": "https://github.com/Xokage9/Itmo2026Cv/blob/db1168a6fbadfdf459efc8654055062e5f908746/lab5.ipynb"
+}
