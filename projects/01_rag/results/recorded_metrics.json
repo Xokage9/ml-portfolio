@@ -1,0 +1,18 @@
+{
+  "source_kind": "recorded_notebook_output",
+  "source_file": "АДиИП_Лаба3_RAG_Вариант1.ipynb",
+  "prepared_on": "2026-11-18",
+  "new_full_gpu_run": false,
+  "protocol": "350 статей в сохранённом запуске; 657 фрагментов Python и 1024 LangChain. Пять сценариев на каждый вариант. Статус `validated` относится к проверке отдельных утверждений, а не к полноте или безошибочности всего ответа.",
+  "limitations": "Набор из пяти запросов — качественная проверка, а не независимый бенчмарк. Эвристики и NLI-проверка не гарантируют отсутствие галлюцинаций.",
+  "metrics": {
+    "articles": 350,
+    "chunks": {
+      "python": 657,
+      "langchain": 1024
+    },
+    "scenarios_per_strategy": 5,
+    "responses_with_validated_claims_per_strategy": 4,
+    "refusals_per_strategy": 1
+  }
+}
