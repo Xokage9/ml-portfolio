@@ -1,0 +1,19 @@
+{
+  "source_kind": "recorded_notebook_output",
+  "source_file": "4laba.ipynb",
+  "prepared_on": "2026-11-18",
+  "new_full_gpu_run": false,
+  "protocol": "Сохранённый эксперимент: 61 825 изображений, 21 класс, разбиение train/validation 80/20. Таблицы новой версии строятся из `validate`, а кривые — из истории обучения. Копия лучшего state_dict теперь независима от следующих шагов обучения.",
+  "limitations": "Независимая test-выборка в исходной работе отсутствует. После исправления checkpoint результаты нужно получить заново; старые числа сохранены отдельно как история эксперимента.",
+  "metrics": {
+    "legacy_validation_macro_f1": {
+      "resnet50": 0.5251,
+      "convnext_tiny": 0.6737,
+      "scratch_cnn": 0.4371
+    },
+    "images": 61825,
+    "classes": 21,
+    "new_checkpoint_protocol_rerun": false
+  },
+  "source_url": "https://github.com/Xokage9/Itmo2026Cv/blob/db1168a6fbadfdf459efc8654055062e5f908746/4laba.ipynb"
+}
