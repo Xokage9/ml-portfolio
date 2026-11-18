@@ -1,0 +1,16 @@
+{
+  "source_kind": "recorded_notebook_output",
+  "source_file": "Lab01_Graphs.ipynb",
+  "prepared_on": "2026-11-18",
+  "new_full_gpu_run": false,
+  "protocol": "В сохранённом запуске: 1081 публикация, 732 термина и 15 сообществ. Это анализ графа документов и терминов, а не реализация Microsoft GraphRAG. Ограничение даты корпуса фиксировано в конфигурации.",
+  "limitations": "Состав корпуса зависит от даты и ответа arXiv. Кластеры и центральности описывают собранный корпус, а не всю научную область.",
+  "metrics": {
+    "articles": 1081,
+    "keyword_nodes": 732,
+    "keyword_edges": 3125,
+    "publication_edges": 142471,
+    "communities": 15,
+    "date_cutoff": "2026-11-06"
+  }
+}
