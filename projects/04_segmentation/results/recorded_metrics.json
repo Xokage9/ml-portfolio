@@ -1,0 +1,18 @@
+{
+  "source_kind": "recorded_notebook_output",
+  "source_file": "lab6.ipynb",
+  "prepared_on": "2026-11-18",
+  "new_full_gpu_run": false,
+  "protocol": "Модель предсказывает восемь классов и фон. Итоговый отчёт исходного эксперимента объединяет все знаки в foreground и считает бинарные метрики; mean foreground IoU нельзя называть многоклассовым mIoU.",
+  "limitations": "Это validation, используемая при выборе checkpoint. Фотографии без ручных масок дают только визуальные примеры. После исправления обработки пустых масок и усреднения оценку необходимо пересчитать.",
+  "metrics": {
+    "legacy_validation": {
+      "mean_foreground_iou": 0.865743548985619,
+      "mean_precision": 0.8752599505881832,
+      "mean_recall": 0.9897813026173627
+    },
+    "metric": "binary_foreground_per_image",
+    "new_metric_protocol_rerun": false
+  },
+  "source_url": "https://github.com/Xokage9/Itmo2026Cv/blob/db1168a6fbadfdf459efc8654055062e5f908746/lab6.ipynb"
+}
